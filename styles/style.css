@@ -115,6 +115,9 @@
     color: var(--title-color);
     text-shadow: 4px 4px 0 var(--title-shadow-color);
     margin-block-start: 30px;
+    text-align: left;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
 }
 
 .header__description {
@@ -199,7 +202,7 @@
     .header {
         grid-template-areas:
       "rec menu"
-      ". title"
+      "title title"
       "desc desc";
         grid-template-columns: 1fr auto;
         gap: 30px;
@@ -207,7 +210,9 @@
 
     .header__title {
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        margin-inline-start: 50px;
+        margin-inline-start: 0;
+        text-align: left;
+        padding-inline-start: 0;
     }
 
     .header__description {
@@ -270,13 +275,19 @@
     .header {
         grid-template-areas:
       "rec menu"
-      ". title"
+      "title title"
       "desc desc";
         grid-template-columns: 1fr auto;
     }
 
     .header__description {
         inline-size: 40%;
+    }
+
+    .header__title {
+        margin-inline-start: 0;
+        text-align: left;
+        padding-inline-start: 0;
     }
 
     .content__blocks_type_reasons {
