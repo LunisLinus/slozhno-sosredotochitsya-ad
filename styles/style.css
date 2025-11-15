@@ -112,8 +112,8 @@
     grid-area: title;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 0.825;
-    color: var(--accent-color);
-    text-shadow: 4px 4px 0 var(--accent-color);
+    color: var(--title-color);
+    text-shadow: 4px 4px 0 var(--title-shadow-color);
     margin-block-start: 30px;
 }
 
@@ -186,8 +186,8 @@
 .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 0.825;
-    color: var(--accent-color);
-    text-shadow: 4px 4px 0 var(--accent-color);
+    color: var(--footer-title-color);
+    text-shadow: 2px 2px 0 var(--footer-title-shadow-color);
 }
 
 /* Tablet styles */

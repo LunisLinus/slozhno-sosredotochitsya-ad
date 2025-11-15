@@ -6,6 +6,10 @@
     --page-bg-image: url('../images/cover-image-light.png');
     --corner-color: #353430;
     --rec-display: none;
+    --title-color: #ffc2e6;
+    --title-shadow-color: #ff8dcb;
+    --footer-title-color: #ffc2e6;
+    --footer-title-shadow-color: #ff8dcb;
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,5 +21,9 @@
         --page-bg-image: url('../images/cover-image-light.png');
         --corner-color: #353430;
         --rec-display: none;
+        --title-color: #ffc2e6;
+        --title-shadow-color: #ff8dcb;
+        --footer-title-color: #ffc2e6;
+        --footer-title-shadow-color: #ff8dcb;
     }
 }
