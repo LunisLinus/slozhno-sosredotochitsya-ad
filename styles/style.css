@@ -87,7 +87,8 @@
 .header__theme-menu {
     grid-area: menu;
     justify-self: center;
-    margin-block: 10px 20px;
+    margin-block: 0 20px;
+    margin-block-start: 10px;
 }
 
 .header__theme-menu-list {
@@ -206,7 +207,6 @@
     padding: 10px;
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: var(--page-bg-image);
 }
 
 .footer__title {
@@ -230,6 +230,15 @@
       "desc desc";
         grid-template-columns: 1fr;
         gap: 30px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        align-content: center;
+        padding: 20px;
+    }
+
+    .header__theme-menu {
+        margin-block: 0 30px;
+        margin-block-start: 10px;
     }
 
     .header__rec {
@@ -319,6 +328,15 @@
       "title title"
       "desc desc";
         grid-template-columns: 1fr;
+        min-height: 100vh;
+        box-sizing: border-box;
+        align-content: center;
+        padding: 20px;
+    }
+
+    .header__theme-menu {
+        margin-block: 0 30px;
+        margin-block-start: 10px;
     }
 
     .header__rec {
@@ -389,5 +407,59 @@
     .gallery img:nth-child(6) {
         grid-column: 4 / 5;
         grid-row: 2 / 3;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__theme-menu {
+        margin-block: 0 20px;
+        margin-block-start: 5px;
+    }
+    
+    .header {
+        min-height: 100vh;
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .header__title {
+        font-size: clamp(4rem, 2.5rem + 7.5vw, 7.25rem);
+        margin-block-end: 20px;
+    }
+    
+    .header__description {
+        inline-size: 100%;
+        justify-self: start;
+        align-self: end;
+        margin-block-end: 20px;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .gallery img {
+        min-height: 200px;
+        aspect-ratio: 16/9;
+    }
+    
+    .content__blocks_type_reasons {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .content__blocks_type_tips {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .footer {
+        min-height: 100vh;
+        padding: 10px;
+    }
+    
+    .footer__title {
+        font-size: clamp(4rem, 2.5rem + 7.5vw, 7.5rem);
     }
 }
