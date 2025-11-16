@@ -1,1 +1,1 @@
-https://github.com/LunisLinus/slozhno-sosredotochitsya-ad/tree/feature/dev
+https://github.com/LunisLinus/slozhno-sosredotochitsya-ad
