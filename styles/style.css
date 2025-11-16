@@ -51,6 +51,11 @@
     margin-block-end: 30px;
     position: relative;
     overflow: visible;
+    background-image: var(--page-bg-image);
+    min-height: 100vh;
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
 }
 
 .header__rec {
@@ -199,6 +204,9 @@
     place-items: center;
     margin-block-start: 30px;
     padding: 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: var(--page-bg-image);
 }
 
 .footer__title {
