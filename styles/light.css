@@ -1,73 +1,32 @@
+.theme-light .header__rec {
+    display: none;
+}
+
 :root.theme-light {
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --brand-color: #ffc2e6;
-    --secondary-color: #353430;
-    --secondary-color-o-40: #35343040;
     --accent-color: #FF8DCB;
-    --highlight-color: #353430;
-    --page-background-color: #fff1f7;
-    --page-background-image: url('../images/cover-image-light.png');
-    --page-bg-image: url('../images/cover-image-light.png');
-    --corner-color: #353430;
-    --rec-display: none;
-    --rec-decor-visibility: hidden;
-    --title-color: #ffc2e6;
-    --title-shadow-color: #ff8dcb;
-    --footer-title-color: #ffc2e6;
-    --footer-title-shadow-color: #ff8dcb;
-}
-
-:root.theme-light .title-decor {
-    color: var(--text-color);
-}
-
-:root.theme-light .header__theme-menu-button {
-    color: var(--text-color);
-}
-
-:root.theme-light .header__theme-menu-button:hover {
-    border-color: var(--text-color);
-}
-
-:root.theme-light .header__theme-menu-button_active {
-    border-color: var(--text-color);
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --menu-color: #353430;
+    --menu-hover-color: rgba(255, 0, 112, 0.4);
+    --decorated-text-color: #000028;
+    --decorated-zone-border-color: #000000;
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: #fff1f7;
-        --text-color: #353430;
-        --brand-color: #ffc2e6;
-        --secondary-color: #353430;
-        --secondary-color-o-40: #35343040;
         --accent-color: #FF8DCB;
-        --highlight-color: #353430;
-        --page-background-color: #fff1f7;
-        --page-background-image: url('../images/cover-image-light.png');
-        --page-bg-image: url('../images/cover-image-light.png');
-        --corner-color: #353430;
-        --rec-display: none;
-        --rec-decor-visibility: hidden;
-        --title-color: #ffc2e6;
-        --title-shadow-color: #ff8dcb;
-        --footer-title-color: #ffc2e6;
-        --footer-title-shadow-color: #ff8dcb;
+        --title-color: #FFC2E6;
+        --text-color: #353430;
+        --menu-color: #353430;
+        --menu-hover-color: rgba(255, 0, 112, 0.4);
+        --decorated-text-color: #000028;
+        --decorated-zone-border-color: #000000;
+        --bg-color: #fff1f7;
+        --bg-image: url(../images/cover-image-light.png);
     }
-
-    .title-decor {
-        color: var(--text-color);
-    }
-
-    .header__theme-menu-button {
-        color: var(--text-color);
-    }
-
-    .header__theme-menu-button:hover {
-        border-color: var(--text-color);
-    }
-
-    .header__theme-menu-button_active {
-        border-color: var(--text-color);
+    .header__rec {
+        display: none;
     }
 }
