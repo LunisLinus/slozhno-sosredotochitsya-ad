@@ -1,29 +1,41 @@
 :root.theme-dark {
     --bg-color: #000028;
     --text-color: #f1b2ce;
-    --accent-color: #ff0070;
+    --brand-color: #ff0070;
     --secondary-color: #ff0070;
+    --secondary-color-o-40: #ff007040;
+    --accent-color: #ff0070;
+    --highlight-color: #000028;
+    --page-background-color: #000028;
+    --page-background-image: url('../images/cover-image-dark.png');
     --page-bg-image: url('../images/cover-image-dark.png');
     --corner-color: #ff0070;
     --rec-display: block;
-    --title-color: #db00ff;
-    --title-shadow-color: #ff0070;
-    --footer-title-color: #db00ff;
-    --footer-title-shadow-color: #ff0070;
+    --rec-decor-visibility: visible;
+    --title-color: #ff0070;
+    --title-shadow-color: #db00ff;
+    --footer-title-color: #ff0070;
+    --footer-title-shadow-color: #db00ff;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #000028;
         --text-color: #f1b2ce;
-        --accent-color: #ff0070;
+        --brand-color: #ff0070;
         --secondary-color: #ff0070;
+        --secondary-color-o-40: #ff007040;
+        --accent-color: #ff0070;
+        --highlight-color: #000028;
+        --page-background-color: #000028;
+        --page-background-image: url('../images/cover-image-dark.png');
         --page-bg-image: url('../images/cover-image-dark.png');
         --corner-color: #ff0070;
         --rec-display: block;
-        --title-color: #db00ff;
-        --title-shadow-color: #ff0070;
-        --footer-title-color: #db00ff;
-        --footer-title-shadow-color: #ff0070;
+        --rec-decor-visibility: visible;
+        --title-color: #ff0070;
+        --title-shadow-color: #db00ff;
+        --footer-title-color: #ff0070;
+        --footer-title-shadow-color: #db00ff;
     }
 }
