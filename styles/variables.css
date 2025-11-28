@@ -1,16 +1,11 @@
 :root {
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --secondary-color: #ff0070;
-    --font-family: 'IBM Plex Mono', monospace;
-    --font-size-base: 18px;
-    --line-height-base: 1.3;
-    --page-bg-image: url('../images/cover-image-dark.png');
-    --corner-color: #ff0070;
-    --rec-display: block;
-    --title-color: #ff0070;
-    --title-shadow-color: #db00ff;
-    --footer-title-color: #ff0070;
-    --footer-title-shadow-color: #db00ff;
+    --accent-color: #FF8DCB;
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --menu-color: #353430;
+    --menu-hover-color: rgba(255, 0, 112, 0.4);
+    --decorated-text-color: #000028;
+    --decorated-zone-border-color: #000000;
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
 }
